@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maria-clarin/static/css/main.4514d3c4.css",
-    "main.js": "/maria-clarin/static/js/main.62c93219.js",
+    "main.js": "/maria-clarin/static/js/main.f2b13e7a.js",
     "index.html": "/maria-clarin/index.html",
     "main.4514d3c4.css.map": "/maria-clarin/static/css/main.4514d3c4.css.map",
-    "main.62c93219.js.map": "/maria-clarin/static/js/main.62c93219.js.map"
+    "main.f2b13e7a.js.map": "/maria-clarin/static/js/main.f2b13e7a.js.map"
   },
   "entrypoints": [
     "static/css/main.4514d3c4.css",
-    "static/js/main.62c93219.js"
+    "static/js/main.f2b13e7a.js"
   ]
 }
