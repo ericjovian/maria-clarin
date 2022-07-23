@@ -16,6 +16,7 @@ export default function App() {
   return (
     <div className="App">
       <Particles
+        init={particlesInit}
         options={{
           background: {
             color: "#000000"
