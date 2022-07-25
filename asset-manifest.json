@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/maria-clarin/static/css/main.4514d3c4.css",
-    "main.js": "/maria-clarin/static/js/main.f2b13e7a.js",
+    "main.css": "/maria-clarin/static/css/main.31d6cfe0.css",
+    "main.js": "/maria-clarin/static/js/main.ac31b0f4.js",
     "index.html": "/maria-clarin/index.html",
-    "main.4514d3c4.css.map": "/maria-clarin/static/css/main.4514d3c4.css.map",
-    "main.f2b13e7a.js.map": "/maria-clarin/static/js/main.f2b13e7a.js.map"
+    "main.ac31b0f4.js.map": "/maria-clarin/static/js/main.ac31b0f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4514d3c4.css",
-    "static/js/main.f2b13e7a.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.ac31b0f4.js"
   ]
 }

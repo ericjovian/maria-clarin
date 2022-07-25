@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.4514d3c4.css","mappings":"AAAA,aAEI,WAAY,CAIZ,MAAO,CAHP,QAAS,CACT,SAAU,CACV,KAAM,CAJN,UAMF","sources":["styles.css"],"sourcesContent":["#tsparticles {\r\n    width: 100%;\r\n    height: 100%;\r\n    margin: 0;\r\n    padding: 0;\r\n    top: 0;\r\n    left: 0;\r\n  }"],"names":[],"sourceRoot":""}
