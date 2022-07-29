@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/maria-clarin/static/css/main.6c6722fc.css",
-    "main.js": "/maria-clarin/static/js/main.fc2574e5.js",
+    "main.js": "/maria-clarin/static/js/main.e78f8d4c.js",
     "static/media/screamingkarin.mp4": "/maria-clarin/static/media/screamingkarin.d596f05d9dce2df09b26.mp4",
     "index.html": "/maria-clarin/index.html",
     "main.6c6722fc.css.map": "/maria-clarin/static/css/main.6c6722fc.css.map",
-    "main.fc2574e5.js.map": "/maria-clarin/static/js/main.fc2574e5.js.map"
+    "main.e78f8d4c.js.map": "/maria-clarin/static/js/main.e78f8d4c.js.map"
   },
   "entrypoints": [
     "static/css/main.6c6722fc.css",
-    "static/js/main.fc2574e5.js"
+    "static/js/main.e78f8d4c.js"
   ]
 }
