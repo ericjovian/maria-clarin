@@ -6,21 +6,56 @@
   min-height: 100%;
   overflow: hidden;
 } */
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 body{
   height: calc(100vh - 8em);
   padding: 2em;
   color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);  
+}
+
+.cards{
+  position: relative;
+  color: white;
+}
+
+.player{
+  position: relative;
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+  margin: auto;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.emptyspc{
+  height: 100vh;
+}
+
+.ericpic{
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
 .line-1{
     position: relative;
     top: 50%;  
-    width: 5em;
+    width: 9.5em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
+    font-family: 'Anonymous Pro', monospace;  
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -29,8 +64,8 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 1s steps(44) 1s 1 normal both,
-             blinkTextCursor 600ms steps(44) infinite normal;
+  animation: typewriter 1s steps(60) 1s 1 normal both,
+             blinkTextCursor 800ms steps(60) infinite normal;
 }
 
 .not-selectable{
@@ -44,9 +79,21 @@ body{
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 5em;}
+  to{width: 9.5em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+@media only screen and (max-width: 768px){
+  .player{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
